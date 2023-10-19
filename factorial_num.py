@@ -3,7 +3,7 @@ def myfunction1(n):
     for i in range(1,n+1):
         s*=i
     return s
-x = 4
+x = int(input("Entre the value of x:"))
 s = myfunction1(x)
 print(s)
 

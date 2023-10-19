@@ -1,4 +1,6 @@
-a = lambda x : x + 5
-print(a(10))
-a = lambda x : print(x + 5)
-a(20)
+def function(n):
+    return lambda x : x * n
+doubler = function(2)
+tripler = function(3)
+print(doubler(10))
+print(tripler(20))
